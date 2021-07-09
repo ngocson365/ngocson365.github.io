@@ -1,0 +1,139 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    padding-bottom: 40px;
+}
+body{  
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1369px;
+    overflow-x: hidden;
+}
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    background-color: #FFF;
+}
+body {
+    display: block;
+}
+.dautrang
+{
+    background: rgb(242, 243, 246);;
+}
+.dautrang .row{
+    margin-top: 70px;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover, .dropdown:hover .dropbtn{
+    background-color: #ffd6d7;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: #9c9c9c;
+}
+.dropdown:hover .dropdown-content{
+    display: block  ;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#login {
+    text-align: center;
+    background: rgb(242, 243, 246);
+}
+#login>input[type=text] {
+    padding-left: 10px;
+}
+#login>input {
+    width: 350px;
+    height: 38px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+#login>input[type=password] {
+    padding-left: 10px;
+}
+.dl{
+    background: #e2e2e2;
+    color: #black;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.dl p{
+    color: #8a8a8a;
+}
+.dl h3{
+    color: #black;
+    margin-bottom: 20px;
+}
+.dl-col-1, .dl-col-2, .dl-col-3{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.dl-col-1{
+    flex: 1;
+    text-align: center;
+}
+.dl-col-1 img{
+    width: 180px;
+    margin-bottom: 20px;
+
+}
+ul{
+    list-style-type: none;
+}
